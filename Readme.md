@@ -38,7 +38,7 @@ Instead of displaying only numerical statistics, PlantMood transforms usage beha
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/interface.png)
+![Main Interface](screenshots/interface.jpeg)
 
 ### Usage Statistics
 ![Usage Chart](screenshots/chart.jpeg)

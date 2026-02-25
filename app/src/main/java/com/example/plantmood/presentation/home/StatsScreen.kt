@@ -26,7 +26,7 @@ fun StatsScreen(viewModel: HomeViewModel) {
         if (weeklyData.isNotEmpty()) weeklyData.average()
         else 0.0
 
-    val best = weeklyData.maxOrNull() ?: 0f
+    val best = weeklyData.minOrNull() ?: 0f
 
     val totalScreenTime = weeklyData.sum()
     val totalSocialTime = weeklySocial.sum()
