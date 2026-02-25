@@ -1,0 +1,41 @@
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config (NU se urcă niciodată)
+local.properties
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Android Studio
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.idea/caches/89*-
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Kotlin
+# =========================
+.kotlin/
